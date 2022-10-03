@@ -1,0 +1,260 @@
+  @charset "UFT-8";
+
+  /*共通部分*/
+
+  html{
+    font-size: 100%;
+  }
+  body{
+    font-family: "Yu Gothic Medium" ,"游ゴシック Medium" ,YuGothic, "游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  img{
+    max-width: 100%;
+  }
+
+
+  /*header*/
+
+  .big-bg{
+    background-size: cover;
+    background-position: center;
+  }
+  #home{
+    background-image: url(../images/1.png);
+    min-height: 820px;
+  }
+  header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-logo{
+    height: 50px;
+  }
+  header .logo{
+    font-size: 45px;
+    font-family: 'Sacramento',serif;
+    font-weight: normal;
+    color: #fff;
+  }
+  .wrapper{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+  /*home content*/
+
+  .home-content{
+    display: flex;
+    height: 720px;
+    margin-left: 10%;
+    align-items: center;
+  }
+  .page-title{
+    font-size: 60px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 12%;
+    font-family: 'Montserrat',serif;
+    font-weight: 200;
+  }
+
+  /*news*/
+
+  #news{
+    background-color: #dfd6d7;
+  }
+  .news-content{
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+  .title-hr{
+    height: 2px;
+    width: 15%;
+    border: none;
+    background-color: black;
+    margin-top: 20px;
+  }
+  .news-title{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  .news{
+    margin: 0 30px;
+    font-size: 40px;
+    font-family: 'Sacramento',serif;
+  }
+  .news-page{
+    display: flex;
+  }
+  .news-imgbox .news-img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+  }
+  .news-page{
+    justify-content: center;
+  }
+  h3{
+    font-weight: normal;
+    font-size: 18px;
+  }
+  .news-item{
+    padding: 0 50px;
+    justify-content: center;
+  }
+  .news-subt{
+    font-family: 'Shippori+Mincho+B1',serif;
+    letter-spacing: 0.7px;
+  }
+  .news-text{
+    inline-size: 300px;
+    padding: 20px 0;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+  h3{
+    padding-top: 20px;
+  }
+  /*menu*/
+
+  #menu{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    max-width: 1800px;
+  }
+
+  .menu-textbox{
+    padding: 100px 50px;
+    
+  }
+  .menu-title{
+    font-size: 40px;
+    font-family: 'Sacramento',serif;
+    padding-top: 50px;
+  }
+  .menu-text{
+    padding: 50px 0;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
+  .menu-button{
+    font-size: 18px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    letter-spacing: 2px;
+    background-color: #7f6666;
+    color: #fff;
+    padding: 12px 40px;
+    width: 300px;
+    text-align: center;
+  }
+  .button:hover{
+    background: #998383;
+  }
+
+  .img1box{
+    width: 35%;
+  }
+ .menu-img1{
+    width: max-content;
+    height: 800px;
+    object-fit: cover;
+    vertical-align: bottom;
+    
+  }
+  .menu-imgbox{
+    height: 800px;
+    width: 35%;
+    flex-direction: column;
+  }
+  .menu-img2{
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+    vertical-align: bottom;
+  }
+
+  /*gallery*/
+
+  .gallery-content{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    background-color: #dfd6d7;
+  }
+  .gallery-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .gallery{
+    margin: 0 30px;
+    font-size: 40px;
+    font-family: 'Sacramento',serif;
+  }
+  .gallery-imgs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .galleryimg1{
+    width: 20%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0 2px;
+    margin-top: 150px;
+  }
+  .galleryimg2{
+    width: 20%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0 2px;
+  }
+  .gallery-button{
+    padding: 15px 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    letter-spacing: 2px;
+    background-color: #7f6666;
+    color: #fff;
+  }
+
+  /*footer*/
+
+  .footer-content{
+    text-align: center;
+    justify-content: center;
+    background-color: #ab9998;
+  }
+  .footer-text{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: #fff;
+  }
+  .sns-logo{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+  }
+  .footer-last{
+    color: #fff;
+    padding: 30px 0;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+  }
