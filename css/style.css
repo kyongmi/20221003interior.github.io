@@ -23,7 +23,7 @@
     background-position: center;
   }
   #home{
-    background-image: url(https://github.com/kyongmi/20221003interior.github.io/blob/main/1.png?raw=true);
+    background-image: url("https://github.com/kyongmi/20221003interior.github.io/blob/main/1.png?raw=true");
     min-height: 820px;
   }
   header{
