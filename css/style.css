@@ -23,7 +23,7 @@
     background-position: center;
   }
   #home{
-    background-image: url("https://github.com/kyongmi/20221003interior.github.io/blob/main/1.png?raw=true");
+    background-image: url(../images/1.png);
     min-height: 820px;
   }
   header{
@@ -257,4 +257,239 @@
     font-family: 'Shippori+Mincho+B1',serif;
     font-size: 15px;
     letter-spacing: 0.7px;
+  }
+
+  /*モバイル版--------------------------------------------*/
+
+  @media(max-width:600px){
+
+    /*header-------------------*/
+
+    #home{
+      min-height: 100px;
+    }
+    header{
+      height: 60px;
+    }
+    .menu-logo{
+      height: 25px;
+    }
+    header .logo{
+      font-size: 30px;
+      font-family: 'Sacramento',serif;
+      font-weight: normal;
+      color: #fff;
+    }
+    .wrapper{
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 4%;
+    }
+    
+
+    /*home content---------------*/
+
+  .home-content{
+    height: 400px;
+    margin-left: 5%;
+    align-items: center;
+  }
+  .page-title{
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 12%;
+    font-family: 'Montserrat',serif;
+    font-weight: 200;
+  }
+
+  /*news*/
+
+  #news{
+    background-color: #dfd6d7;
+  }
+  .news-content{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    
+  }
+  .title-hr{
+    height: 1px;
+    width: 15%;
+    border: none;
+    background-color: black;
+    margin-top: 15px;
+  }
+  .news-title{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+  }
+  .news{
+    margin: 0 15px;
+    font-size: 30px;
+    font-family: 'Sacramento',serif;
+  }
+  .news-page{
+    flex-direction: column;
+  }
+  .news-imgbox .news-img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  h3{
+    font-weight: normal;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .news-item{
+    justify-content: center;
+    padding: 0 25px;
+  }
+  .news-text{
+    inline-size: 300px;
+    padding: 20px 0 50px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+
+  /*menu---------------------------*/
+
+  #menu{
+    flex-direction: column;
+    height: auto;
+    max-width: 600px;
+  }
+
+  .menu-textbox{
+    padding: 0 25px 80px;
+    
+  }
+  .menu-title{
+    font-size: 30px;
+    font-family: 'Sacramento',serif;
+    padding-top: 60px;
+  }
+  .menu-text{
+    padding: 30px 0;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+  .menu-button{
+    font-size: 16px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    letter-spacing: 2px;
+    background-color: #7f6666;
+    color: #fff;
+    padding: 12px 40px;
+    width: 300px;
+  }
+  .button:hover{
+    background: #998383;
+  }
+
+  .img1box{
+    width: 100%;
+  }
+ .menu-img1{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+  .menu-imgbox{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    flex-direction: row;
+  }
+  .menu-img2{
+    object-fit: cover;
+    height: 200px;
+    width: 50%;
+  }
+  
+  /*gallery--------------------*/
+
+  .gallery-content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    justify-content: center;
+    background-color: #dfd6d7;
+  }
+  .gallery-title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .gallery{
+    margin: 0 15px;
+    font-size: 30px;
+    font-family: 'Sacramento',serif;
+  }
+  .gallery-imgs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .galleryimg1{
+    width: 20%;
+    height: 150px;
+    object-fit: cover;
+    padding: 0 1.5px;
+    margin-top: 60px;
+  }
+  .galleryimg2{
+    width: 20%;
+    height: 150px;
+    object-fit: cover;
+    padding: 0 1.5px;
+  }
+  .gallery-button{
+    padding: 12px 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    letter-spacing: 2px;
+    background-color: #7f6666;
+    color: #fff;
+  }
+
+  /*footer---------------------*/
+
+  .footer-content{
+    text-align: center;
+    justify-content: center;
+    background-color: #ab9998;
+  }
+  .footer-text{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    color: #fff;
+  }
+  .sns-logo{
+    height: 20px;
+    width: 20px;
+    margin: 0 8px;
+  }
+  .footer-last{
+    color: #fff;
+    padding: 15px 0;
+    font-family: 'Shippori+Mincho+B1',serif;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+  }
+
+
+
+
+
   }
